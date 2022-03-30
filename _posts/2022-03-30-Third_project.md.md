@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Third guided project"
+---
+
 # Third guided project
 
 With this project, we will see which app is helpful for our company and let develpers know what to concentrate on.
