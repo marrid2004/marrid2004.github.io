@@ -112,15 +112,9 @@ analytics:
 author:
   name             : "Geonhyeok Jeong"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-<<<<<<< HEAD
-  bio              : "A blog of Geonhyeok Jeong"
+  bio              : #"A blog of Geonhyeok Jeong"
   location         : "Waxhaw NC"
-  email            : "marrid2004@gmail.com"
-=======
-  bio              : "Someone who wants to be a **statistician** to make the world more efficient."
-  location         : "Waxhaw, NC"
-  email            : "marrid2004@gmail.com
->>>>>>> c8c58dee696c6c4e37bfbe9695295032e6b990b9
+  email            : #"marrid2004@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
