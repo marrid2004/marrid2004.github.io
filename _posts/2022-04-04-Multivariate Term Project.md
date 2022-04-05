@@ -1,3 +1,11 @@
+---
+layout: single
+title:  "Multivariate Term Project"
+categories: R
+tags : [PNU, Multivariate]
+---
+
+
 #  Seasonal league rank by team based on multivariate.
 
 ## Ⅰ. Abstract
@@ -125,9 +133,7 @@ plot(X)
 ```
 
 
-    
-![png](output_7_0.png)
-    
+​       ![output_7_0](../images/2022-04-04-Multivariate Term Project/output_7_0.png)
 
 
 I tried to find out the correlation through the plot data above, but I could only figure out the approximate degree of correlation. So, I checked it again with the correlation matrix.
@@ -146,10 +152,10 @@ corrplot(R,method='circle')
 </ol>
 
 
+![output_9_1](../images/2022-04-04-Multivariate Term Project/output_9_1.png)
 
 
-    
-![png](output_9_1.png)
+
     
 
 
@@ -161,9 +167,7 @@ boxplot(Z)
 ```
 
 
-    
-![png](output_11_0.png)
-    
+​    ![output_11_0](../images/2022-04-04-Multivariate Term Project/output_11_0.png)
 
 
 The boxplot data above is a figure after standardizing the value of the value to a relatively large size. Overall, the mean is similar and the outliner is circled in red. Looking at the outliers, we can infer that certain teams have won a lot of conference championships.
@@ -191,9 +195,7 @@ rq
 0.97554144303074
 
 
-
-    
-![png](output_13_1.png)
+![output_13_1](../images/2022-04-04-Multivariate Term Project/output_13_1.png)
     
 
 
@@ -232,9 +234,8 @@ ylab="Eigenvalue")
 
 
 
-    
-![png](output_15_1.png)
-    
+
+​    ![output_15_1](../images/2022-04-04-Multivariate Term Project/output_15_1.png)
 
 
 The above is the numerical data of the explanatory power of the factors and the screen plot. If we look at the above figures first, we can see that we have to select up to number 3 to have an explanatory power of 71.48%, which is 70%, and it is appropriate to get a factor of 3 because we can also see that the 3rd point is elbow through the script plot. it can be seen that
@@ -332,10 +333,9 @@ arrows(0,0, V1[,1], V1[, 2], col=2, code=2, length=0.1)
 
 ```
 
+​    
 
-    
-![png](output_19_0.png)
-    
+​    ![output_19_0](../images/2022-04-04-Multivariate Term Project/output_19_0.png)
 
 
 First, I will analyze the factor score plot and factor loading plot 1,2. There are a lot of teams in general, so I'll say the Lakers and the Honnets as representative of the two teams. In the case of Lakers, it can be said that it is located on the right side of the first quadrant and has both the characteristics of the first and second factors. It can be said that he has been in training for a long time, has won many championships, has a high average score, his age, and the number of audiences. On the other hand, in the case of the Honnets, which are located at the end of the third quadrant, they have little experience in winning, are young, and have a small audience. Looking at the ranks of the two teams, lakers are 2nd and honnets are 27th, showing a lot of difference.
@@ -355,16 +355,14 @@ arrows(0,0, V1[,1], V1[, 3], col=2, code=2, length=0.1)
 
 ```
 
+​    
 
-    
-![png](output_21_0.png)
-    
-
+​    ![output_21_0](../images/2022-04-04-Multivariate Term Project/output_21_0.png)
 
 
-    
-![png](output_21_1.png)
-    
+
+
+​    ![output_21_1](../images/2022-04-04-Multivariate Term Project/output_21_1.png)
 
 
 It is a picture of the 1st and 3rd factors. Since I have explained the first factor above, I will only explain the third factor. In the case of the third person, it can be seen that the more it goes to -, the higher the average number of conceded points, the smaller the audience, and the younger the age. A representative team is the Atranta Hawks, and this year's rank is 28th.
@@ -407,13 +405,12 @@ colnames(cluster) = cbind(c(colnames(X),'cluster','rank'))
                     In the plot of Hubert index, we seek a significant knee that corresponds to a 
                     significant increase of the value of the measure i.e the significant peak in Hubert
                     index second differences plot. 
-     
-    
 
 
-    
-![png](output_24_1.png)
-    
+​    
+
+
+​    ![output_24_1](../images/2022-04-04-Multivariate Term Project/output_24_1.png)
 
 
     *** : The D index is a graphical method of determining the number of clusters. 
@@ -432,15 +429,13 @@ colnames(cluster) = cbind(c(colnames(X),'cluster','rank'))
                        ***** Conclusion *****                            
      
     * According to the majority rule, the best number of clusters is  2 
-     
-     
+
+
+​     
     ******************************************************************* 
-    
 
 
-    
-![png](output_24_3.png)
-    
+​    ![output_24_3](../images/2022-04-04-Multivariate Term Project/output_24_3.png)
 
 
 In the factor plot, it was difficult to divide the groups subjectively because there were many overlapping teams. So, we will divide the groups through the above function and find out the characteristics of each group. According to the above result, it is best to divide two groups, but in the case of two groups, too many teams enter one group and cannot show the characteristics, so I divided the group into the next best 8 groups to show the results.

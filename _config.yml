@@ -27,7 +27,7 @@ url                      : "https://marrid2004.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/family.png"
+logo                     : "/assets/images/mark.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs            : true
 words_per_minute         : 200
@@ -127,7 +127,7 @@ author:
       url: "https://github.com/marrid2004"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/stat_sergent"
+      url: "https://www.instagram.com/stat_sergeant/"
 
 # Site Footer
 footer:

@@ -1,7 +1,11 @@
 ---
-layout: post
-title:  "Third guided project"
+layout: single
+title:  "Store Market"
+categories: Python
+tags : [dataquest, bigdata]
 ---
+
+
 
 # Third guided project
 
