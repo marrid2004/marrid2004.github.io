@@ -19,9 +19,9 @@ locale                   : "en-US"
 
 title                    : "Stat_Sergeant_note"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Easy come Easy go" # site tagline that appears below site title in masthead
 name                     : "Geonhyeok Jeong"
-description              : "Someone who wants to be a statistician to make the world more efficient"
+description              : "Easy come Easy go"
 
 url                      : "https://marrid2004.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
