@@ -3,6 +3,7 @@ layout: single
 title:  "Multivariate Term Project"
 categories: R
 tags : [PNU, Multivariate]
+toc : true
 ---
 
 
@@ -156,7 +157,7 @@ corrplot(R,method='circle')
 
 
 
-    
+​    
 
 
 If you look at the picture above, you can easily see the correlation between the variables, and you can see that PA.G (percentage runs per game) has a negative correlation with other variables as a whole. If you look at Year (the period in which the club was created), you can see that there is a positive correlation with variables such as Plyfs, conf, Champ, value. The longer the period, the more opportunities there are, so it may be natural to have a positive relationship.
@@ -432,7 +433,7 @@ colnames(cluster) = cbind(c(colnames(X),'cluster','rank'))
 
 
 ​     
-    ******************************************************************* 
+​    ******************************************************************* 
 
 
 ​    ![output_24_3](../images/2022-04-04-Multivariate Term Project/output_24_3.png)
