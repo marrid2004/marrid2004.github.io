@@ -3,6 +3,7 @@ layout: single
 title:  "Store Market"
 categories: Python
 tags : [dataquest, bigdata]
+author_profile : false
 ---
 
 

@@ -3,6 +3,7 @@ layout: single
 title:  "Exploring Hacker News Posts"
 categories: Python
 tags : [dataquest, bigdata]
+author_profile : false
 ---
 
 

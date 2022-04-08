@@ -4,6 +4,7 @@ title:  "Multivariate Term Project"
 categories: R
 tags : [PNU, Multivariate]
 toc : true
+author_profile : false
 ---
 
 

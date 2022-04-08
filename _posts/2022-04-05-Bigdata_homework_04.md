@@ -3,6 +3,7 @@ layout: single
 title:  "Bigdata homework 04"
 categories: R
 tags : [PNU, bigdata]
+author_profile : false
 ---
 
 
